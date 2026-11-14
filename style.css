@@ -1,6 +1,4 @@
-/* =========================================================
-   全域設定（所有檔名、class 與 id 皆為全小寫英文與連字號）
-   ========================================================= */
+
 :root {
   --bg-page: #f1f5f9;
   --header-border: #3b82f6;
@@ -58,7 +56,7 @@ img {
   gap: 24px;
 }
 
-/* 1. <header> 區塊 */
+
 .resume-header {
   display: flex;
   align-items: center;
@@ -124,7 +122,7 @@ img {
   color: var(--accent-blue);
 }
 
-/* 2. <nav> 區塊 */
+
 .resume-nav {
   background-color: var(--nav-bg);
   border: 2px solid var(--nav-border);
@@ -154,7 +152,6 @@ img {
   gap: 10px;
 }
 
-/* [特效] 導覽列錨點按鈕滑鼠移入變色與微幅上浮 - 使用 transition + transform: translateY */
 .anchor-links a {
   display: inline-block;
   padding: 5px 14px;
@@ -182,7 +179,7 @@ img {
   font-size: 0.96rem;
 }
 
-/* 3. <section> 與 <article> */
+
 .resume-main-section {
   background-color: var(--section-bg);
   border: 2px solid var(--section-border);
@@ -194,7 +191,7 @@ img {
   box-shadow: 0 4px 16px rgba(139, 92, 246, 0.08);
 }
 
-/* [特效] 卡片滑鼠懸停時陰影加深並微幅上移 - 使用 transition + transform: translateY */
+
 .card-article {
   background-color: var(--article-bg);
   border: 1.5px solid var(--article-border);
@@ -231,7 +228,7 @@ img {
   flex-grow: 1;
 }
 
-/* 學歷背景 */
+
 .timeline-list {
   display: flex;
   flex-direction: column;
@@ -263,7 +260,7 @@ img {
   margin-bottom: 8px;
 }
 
-/* 專業技能：純 CSS 圓環 + 進度條 */
+
 .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -349,7 +346,7 @@ img {
   border-radius: 999px;
 }
 
-/* 經歷佐證圖片 */
+
 .exp-box {
   display: flex;
   flex-direction: column;
@@ -365,7 +362,7 @@ img {
   background-color: #e2e8f0;
 }
 
-/* [特效] 經歷佐證圖片滑鼠移入時平滑放大 - 使用 transition + transform: scale */
+
 .evidence-img {
   width: 100%;
   height: 100%;
@@ -402,7 +399,7 @@ img {
   text-decoration: underline;
 }
 
-/* 工作經驗（全寬橫向卡片） */
+
 .work-flex-box {
   display: grid;
   grid-template-columns: 280px 1fr;
@@ -424,7 +421,7 @@ img {
   gap: 10px;
 }
 
-/* 4. <footer> 區塊 */
+
 .resume-footer {
   background-color: var(--footer-bg);
   border: 2px solid var(--footer-border);
@@ -453,7 +450,7 @@ img {
   margin-bottom: 14px;
 }
 
-/* [特效] 社群連結按鈕滑鼠移入變色與放大 - 使用 transition + transform: scale */
+
 .social-pill {
   padding: 8px 20px;
   border-radius: 999px;
@@ -476,7 +473,7 @@ img {
   color: var(--text-muted);
 }
 
-/* RWD */
+
 @media (max-width: 768px) {
   .resume-header {
     flex-direction: column;
